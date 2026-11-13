@@ -1,0 +1,21 @@
+Ornek: sentetik_8iskele_6gemi | 8 aday iskele, 6 gemi, 84 sefer
+
+MILP  durum=Optimal  Z=19,750,110 TL/yil  sure=0.39 s  (294 degisken, 436 kisit)
+      sarj iskeleleri={'A': 1, 'B': 1, 'D': 0}  batarya={'buyuk': 1199.9999999999998, 'kucuk': 400.0}
+      Re=100.0%  Ri=37.5%  kontrol=GECTI
+
+GA, sarj kurali='maks' (30 calistirma, pop=100, kusak=300)
+      en iyi Z=20,918,879  ortalama=20,975,392  std=211,453
+      optimallik farki: en iyi=5.92%  ortalama=6.20%  en kotu=10.21%
+      ortalama sure=0.51 s/calistirma
+      en iyi cozum: sarj={'A': 1, 'B': 0, 'D': 0, 'E': 0} batarya={'buyuk': 1200.0, 'kucuk': 400.0}  Re=100.0%
+      tum cozumler bagimsiz kontrolden gecti: True
+
+GA, sarj kurali='ihtiyac' (30 calistirma, pop=100, kusak=300)
+      en iyi Z=19,750,110  ortalama=19,793,289  std=161,561
+      optimallik farki: en iyi=0.00%  ortalama=0.22%  en kotu=3.28%
+      ortalama sure=0.55 s/calistirma
+      en iyi cozum: sarj={'A': 1, 'B': 1, 'D': 0} batarya={'buyuk': 1200.0, 'kucuk': 400.0}  Re=100.0%
+      tum cozumler bagimsiz kontrolden gecti: True
+
+Ciktilar: /home/claude/vapur-opt/cikti
